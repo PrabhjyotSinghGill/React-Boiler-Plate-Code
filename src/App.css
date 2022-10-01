@@ -1,4 +1,12 @@
 *{
   margin:0;
   padding:0;
+  --border:none; /*css variables maintains consistency in the front end*/
+  --margin:none; /*css variables */
+  --background-color:none; /*css variables */
+}
+.app{
+  border:var(--border); /* Values mapped from css variables declared on the top*/
+  margin:var(--margin); /* Values mapped from css variables declared on the top*/
+  background-color: var(--background-color); /* Values mapped from css variables declared on the top*/
 }
